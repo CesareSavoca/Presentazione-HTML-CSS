@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang='it'>
+  <head>
+    <!-- questa è l'intestazione -->
+    <meta charset='UTF-8'/>
+    <title>Presentezione Cesare Savoca</title>
+    <meta name='author' content='Cesare Savoca'
+    <meta name='description' content='Questo è la pagina dei contatti di Cesare Savoca'/>
+    <meta name='keywords' content='Cesare, Savoca, Contatti'/>
+    <link rel='stylesheet' href='../css/style.css'/>
+  </head>
+  <body>
+    <footer>
+      <div class='mappa'>
+        <ul>
+          <li><h3>Mappa del sito</h3></li>
+          <li><a href='../progetto-htmlcss.html'>Home</a></li>
+          <li><a href='../pagine/marketing.html'>Marketing</a></li>
+          <li><a href='../pagine/sviluppo-web.html'>Sviluppo Web</a></li>
+          <li><a href='../pagine/grafica.html'>Grafica</a></li>
+        </ul>
+      </div>
+      <div class='contatti'>
+        <ul>
+          <li> Cellulare:<br> +39 339 2426603</li>
+          <li> Email: savocacesare@hotmail.it</li>
+        </ul>
+      </div>
+        <div class='icone'>
+          <ul>
+          <li><a href='https://www.facebook.com/cesare.savoca'><img src=../immagini/face.png alt='logo.facebook'
+          style='width:50px'/></a></li>
+          <li><a href='https://www.instagram.com/cesaresavoca/'><img src=../immagini/insta.png alt='logo.instagram'
+            style='width:50px'/></a></li>
+            <li><a href='https://www.linkedin.com/in/cesaresavoca/'><img src=../immagini/linkedin.png alt='logo.linkedin'
+              style='width:50px'/></a></li>
+        </div>
+    </footer>
+    <div class="page">
+      <section id='modulo'>
+        <div class='content'>
+          <h1>Vuoi chiedermi qualcosa?</h1>
+            <h3>Se vuoi collaborare con me o semplicemente vuoi chiederemi
+              informazioni compila il modulo</h3>
+      <form action='*' method='post'>
+        <ul>
+          <li class='primo'>
+            <label for='name'>Nome</label>
+            <input type='text' name='name' id='name' class='testo' required>
+          </li>
+          <li class='secondo'>
+            <label for='email'>Email</label>
+            <input type='email' name='email' id='email' class='testo' required>
+          </li>
+          <li class='terzo'>
+            <label for='testo'>Messaggio</label>
+            <textarea name='testo' id='name' required></textarea>
+          </li>
+          <li class='quarto'>
+            <label for='radio'>Vuoi collaborare con me?</label>
+            <input type='radio' name='radio' id='radio' value='si'/>Si
+            <input type='radio' name='radio' id='radio' value='no'/>No
+          </li>
+          <li class='quinto'>
+            <label for='email'>In quale settore posso esserti utile?</label>
+            <select name='collaborazione'>
+              <option value='1'>Marketing</option>
+              <option value='2'>Sviluppo Web</option>
+              <option value='3'>Grafica</option>
+              </select>
+          </li>
+          <li class='sesto'>
+          <laber for='radio'>Preferisci organizzare una call con me?</label>
+          <input type='radio' name='call' value='si'/> Si
+          <input type='radio' name='call' value='no'/>No
+        </li>
+          <li class='settimo'>
+            <input type='submit' value='INVIA'>
+          </li>
+        </ul>
+      </form>
+        </div>
+      </section>
+    </div>
+  </body>

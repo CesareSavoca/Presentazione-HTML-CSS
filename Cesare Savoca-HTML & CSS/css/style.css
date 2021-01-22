@@ -1,0 +1,261 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+a{
+  color: white;
+  font-family: bold;
+
+}
+
+  body {
+    padding: 50px;
+    background-image: url(../immagini/sfondo.jpg);
+    color: #FFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+h2 {
+  font-size: 30px;
+  font-family: 'Futura', bold;
+  text-align: center;
+}
+
+  header h1 {
+    border: 10px double #15A0E5;
+    font-size: 30;
+    font-family: 'Futura', bold;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    -webkit-box-shadow: -1px 0px 15px 10px rgba(0, 0, 0, 1.0);
+    -moz-box-shadow:  -1px 0px 15px 10px rgba(0, 0, 0, 1.0);
+    box-shadow:  -1px 0px 15px 10px rgba(0, 0, 0, 1.0);
+    text-shadow: 3px 4px black;
+  }
+
+  .menu-navigazione {
+    font-size: 25;
+    font-family: 'avenir';
+    display: inline-flex;
+    padding: 15px;
+    border: 10px double #15A0E5;
+    align-items: center;
+    list-style: none;
+    border-radius: 30px;
+    -webkit-box-shadow: -1px 0px 15px 10px rgba(0, 0, 0, 1.0);
+    -moz-box-shadow:  -1px 0px 15px 10px rgba(0, 0, 0, 1.0);
+    box-shadow:  -1px 0px 15px 10px rgba(0, 0, 0, 1.0);
+  }
+
+  li {
+    padding: 20px;
+    font-family: 'avenir', bold;
+  }
+
+.lavori {
+  display: flex;
+}
+
+  header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .dropdown:hover  .portfolio-menu {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding-top: 60px;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    z-index: 1;
+  }
+
+  .portfolio-menu {
+    display: none;
+    list-style: none;
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown > span {
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+  }
+
+p {
+  font-family: 'Futura';
+  font-size: 20px;
+}
+.page > h1 {
+  margin: 50px;
+}
+  .page > p {
+    text-align: left;
+    margin: 50px;
+  }
+
+  .passioni {
+    font-size: 25;
+    font-family: 'avenir';
+    display: inline-flex;
+    padding: 15px;
+    border: 10px double #15A0E5;
+    align-items: center;
+    list-style: none;
+    border-radius: 30px;
+    -webkit-box-shadow: -1px 0px 15px 10px rgba(0, 0, 0, 1.0);
+    -moz-box-shadow:  -1px 0px 15px 10px rgba(0, 0, 0, 1.0);
+    box-shadow:  -1px 0px 15px 10px rgba(0, 0, 0, 1.0);
+    border-bottom: none;
+    margin: 50px;
+    padding-bottom: 150px;
+  }
+
+  .dropdown:hover .marketing-menu {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding-top: 60px;
+    position: absolute;
+    top: -25px;
+    z-index: 1;
+  }
+
+  .dropdown:hover .sviluppoweb-menu {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding-top: 60px;
+    position: absolute;
+    top: -25px;
+    z-index: 1;
+  }
+
+  .dropdown:hover .grafica-menu {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding-top: 60px;
+    position: absolute;
+    top: -25px;
+    left: -10px;
+    z-index: 1;
+  }
+
+  .marketing-menu,
+  .sviluppoweb-menu,
+  .grafica-menu  {
+    display: none;
+    list-style: none;
+  }
+
+#modulo {
+  margin-top: 50px;
+  display: flex;
+  border: 10px double #15A0E5;
+  border-radius: 30px;
+  -webkit-box-shadow: -1px 0px 15px 10px rgba(0, 0, 0, 1.0);
+  -moz-box-shadow:  -1px 0px 15px 10px rgba(0, 0, 0, 1.0);
+  box-shadow:  -1px 0px 15px 10px rgba(0, 0, 0, 1.0);
+  border-bottom: none;
+}
+
+.content {
+  text-align: center;
+}
+
+#modulo ul {
+  list-style: none;
+}
+
+.terzo,
+.primo,
+.secondo,
+.quinto {
+  display: flex;
+  justify-content: space-around;
+  }
+
+  textarea {
+    height: 100px;
+    width: 200px;
+    resize: none;
+  }
+
+select{
+  border: 5px double #15A0E5;
+}
+
+.settimo > input{
+    border: 5px double #15A0E5;
+    color: #000;
+    margin: 20px;
+    font-size: 18px;
+    background-color: white;
+  }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0,0,0,0.5);
+  border: 10px double #15A0E5;
+  font-size: 30;
+  font-family: 'Avenir';
+  border-radius: 30px;
+  -webkit-box-shadow: -1px 0px 15px 10px rgba(0, 0, 0, 1.0);
+  -moz-box-shadow:  -1px 0px 15px 10px rgba(0, 0, 0, 1.0);
+  box-shadow:  -1px 0px 15px 10px rgba(0, 0, 0, 1.0);
+  text-shadow: 3px 4px black;
+  opacity: 70%;
+}
+
+footer:hover {
+  background-color: rgba(0,0,0,1.0);
+}
+
+.contatti > ul  {
+  display: flex;
+  padding-left: 145px;
+  padding-right: 145px;
+  list-style: none;
+  flex-direction: column;
+}
+
+.mappa > ul  {
+  display: flex;
+  padding-left: 145px;
+  padding-right: 145px;
+  list-style: none;
+  flex-direction: column;
+}
+
+.mappa > ul > li > a {
+  color: white;
+}
+
+.icone > ul  {
+  display: flex;
+  padding-left: 145px;
+  padding-right: 145px;
+  list-style: none;
+  flex-direction: column;
+}
